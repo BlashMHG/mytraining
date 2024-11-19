@@ -8,12 +8,6 @@ grades = (sum(grades[0])/len(grades[0]),
 
 students = list(sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}))
 
-#average = {students[0]: grades[0],
- #     students[1]: grades[1],
-  #    students[2]: grades[2],
-   #   students[3]: grades[3],
-    #  students[4]: grades[4]}
-
 average = dict(zip(students, grades))
 
 print(average)
