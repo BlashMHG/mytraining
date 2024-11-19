@@ -17,5 +17,3 @@ students = list(sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}))
 average = dict(zip(students, grades))
 
 print(average)
-
-
